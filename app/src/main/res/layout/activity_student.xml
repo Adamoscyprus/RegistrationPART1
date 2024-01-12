@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/img_5"
+    tools:context="MainActivity">
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:orientation="vertical">
+
+        <!-- Add any other views related to the image here -->
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/img_2" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:textColor="@color/backgroundColor"
+            android:textSize="26dp"
+            android:layout_height="wrap_content"
+            android:text="xristodoulouadamos@gmail.com"/>
+
+
+
+
+        <!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/your_name"-->
+<!--            android:textColor="@color/design_default_color_error"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:textStyle="bold"/>-->
+
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:id="@+id/top"
+        android:layout_height="match_parent">
+
+
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/email"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/editext"-->
+<!--            android:drawableLeft="@drawable/baseline_person_24"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:elevation="3dp"-->
+<!--            android:hint="Name"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:padding="15dp"-->
+<!--            app:layout_constraintBaseline_toBottomOf="@id/top"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintWidth_percent=".8" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/password"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/editext"-->
+<!--            android:drawableLeft="@drawable/baseline_person_24"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:elevation="3dp"-->
+<!--            android:hint="SurName "-->
+<!--            android:padding="15dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/email"-->
+<!--            app:layout_constraintWidth_percent=".8" />-->
+
+
+<!--        <Button-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="@color/pink"-->
+<!--            android:background="@drawable/editext"-->
+<!--            android:id="@+id/button"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:onClick="SignIn"-->
+<!--            android:padding="15dp"-->
+<!--            android:text="EditProfile"-->
+<!--            android:drawableLeft="@drawable/baseline_edit_24"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.414"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/password"-->
+<!--            app:layout_constraintVertical_bias="0.130"-->
+<!--            app:layout_constraintWidth_percent=".4" />-->
+
+
+<!--        <Button-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="@color/pink"-->
+<!--            android:background="@drawable/editext"-->
+<!--            android:id="@+id/button2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:onClick="SignIn"-->
+<!--            android:padding="15dp"-->
+<!--            android:text="Change Password"-->
+<!--            android:drawableLeft="@drawable/baseline_lock_open_24"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.414"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/button"-->
+<!--            app:layout_constraintVertical_bias="0.130"-->
+<!--            app:layout_constraintWidth_percent=".4" />-->
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#D1F1F3"
+            android:drawableLeft="@drawable/baseline_search_24"
+            android:gravity="center"
+            android:onClick="Find"
+            android:padding="15dp"
+            android:text="@string/find_teachers"
+            android:textAllCaps="false"
+            android:textColor="@color/pink"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.414"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.130"
+            app:layout_constraintWidth_percent=".4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>

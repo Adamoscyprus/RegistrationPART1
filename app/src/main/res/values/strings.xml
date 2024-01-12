@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RegistrationPART1</string>
+    <string name="sign_up_as" />
+    <string name="students" />
+    <string name="teachers" />
+    <string name="teacher">Teacher</string>
+    <string name="signup_as">SignUp As</string>
+    <string name="student">Student</string>
+    <string name="profile_image" />
+    <string name="dont_have_an_accoount">Dont Have An Accoount</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_accoount">Already Have An Accoount ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="add_image">Add Image</string>
+    <string name="adamos_christodoulou">Adamos Christodoulou</string>
+    <string name="your_name">Your Name</string>
+    <string name="find_teachers">Find Teachers</string>
+    <string name="my_profile">My Profile</string>
+    <string name="register">register</string>
+    <string name="qualifications">Qualifications</string>
+    <string name="teacher_s_name">Teacher\'s Name</string>
+    <string name="_100">100$</string>
+    <string name="christodoulou">Christodoulou</string>
+    <string name="adamos">Adamos</string>
+    <string name="prices">PRICES$</string>
+    <string name="_96_650_561">96-650-561</string>
+    <string name="mathimatician">MATHIMATICIAN</string>
+</resources>
